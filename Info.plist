@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>GlowBar</string>
+	<key>CFBundleExecutable</key>
+	<string>GlowBar</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.tpupsniper.glowbar</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>GlowBar</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>14.0</string>
+	<key>LSUIElement</key>
+	<true/>
+	<key>NSHighResolutionCapable</key>
+	<true/>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLName</key>
+			<string>com.tpupsniper.glowbar</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>glowbar</string>
+			</array>
+		</dict>
+	</array>
+	<key>NSAppleEventsUsageDescription</key>
+	<string>GlowBar checks what Spotify or Apple Music is playing when it starts, so the music glow and icon show right away.</string>
+	<key>NSDownloadsFolderUsageDescription</key>
+	<string>GlowBar watches Downloads for files that arrive by AirDrop, to show the AirDrop glow.</string>
+	<key>NSCalendarsFullAccessUsageDescription</key>
+	<string>GlowBar glows before your meetings and when an event is added. Your calendar stays on this Mac.</string>
+	<key>NSRemindersFullAccessUsageDescription</key>
+	<string>GlowBar glows when a reminder is added. Your reminders stay on this Mac.</string>
+</dict>
+</plist>
